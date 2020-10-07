@@ -1,0 +1,19 @@
+{
+  "name": "modern_port",
+  "version": "1.0.0",
+  "description": "Responsive portfolio",
+  "main": "index.js",
+  "homepage": "https://prajwal98.github.io/mynewportfolio",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Prajwal Urs",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
